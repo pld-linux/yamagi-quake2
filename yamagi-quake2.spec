@@ -13,6 +13,8 @@ BuildRequires:	SDL2-devel
 BuildRequires:	cmake >= 3.0
 BuildRequires:	curl-devel
 BuildRequires:	rpmbuild(macros) >= 1.605
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		gamedir		%{_libdir}/%{name}
