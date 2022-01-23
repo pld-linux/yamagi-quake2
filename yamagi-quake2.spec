@@ -1,11 +1,11 @@
 Summary:	Yamagi Quake II client
 Name:		yamagi-quake2
-Version:	8.00
+Version:	8.01
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	https://deponie.yamagi.org/quake2/quake2-%{version}.tar.xz
-# Source0-md5:	e0c7fb6031e2cbf4396959b074ec7d72
+# Source0-md5:	0338ca2931cbb2e6f25a02c415a240d5
 URL:		https://www.yamagi.org/quake2/
 BuildRequires:	OpenAL-devel
 BuildRequires:	OpenGL-devel
